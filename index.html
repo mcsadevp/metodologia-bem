@@ -13,21 +13,27 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <nav>
-      <img src="./assets/img/logos/adl.png" alt="" />
-      <p>Blog FrontEnd</p>
+    <nav class="nav-footer">
+      <div>
+        <img
+          class="nav-footer__logo--radius"
+          src="./assets/img/logos/adl.png"
+          alt=""
+        />
+        <span class="nav-footer__text--bold">Blog FrontEnd</span>
+      </div>
     </nav>
-    <header><h1>Novedades</h1></header>
-    <section>
+    <header><h1 class="title--bold">Novedades</h1></header>
+    <section class="novedades">
       <div class="card mb-3">
         <img
           src="./assets/img/posts/bootstrap.png"
-          class="card-img-top"
+          class="novedades__img--large card-img-top"
           alt="..."
         />
         <div class="card-body">
-          <h5 class="card-title">24 Noviembre, 2022</h5>
-          <p class="card-text">
+          <h5 class="text--regular card-title">24 Noviembre, 2022</h5>
+          <p class="novedades__text--bold card-text">
             Modifica el tema de Bootstrap con variables CSS
           </p>
           <div class="col-md-4">
@@ -36,12 +42,11 @@
               class="img-fluid rounded-start"
               alt="..."
             />
-            <p class="card-text">Desafío Latam</p>
+            <p class="icon-text--large">Desafío Latam</p>
           </div>
         </div>
       </div>
       <div class="card mb-3" style="max-width: 540px">
-        <h2>Populares</h2>
         <div class="row g-0">
           <div class="col-md-4">
             <img
@@ -52,15 +57,15 @@
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">24 Noviembre, 2022</h5>
-              <p class="card-text">Herencia en JavaScript</p>
+              <h5 class="text--regular card-title">24 Noviembre, 2022</h5>
+              <p class="text-card--bold card-text">Herencia en JavaScript</p>
               <div class="col-md-4">
                 <img
                   src="./assets/img/logos/adl.png"
                   class="img-fluid rounded-start"
                   alt="..."
                 />
-                <p class="card-text">Desafío Latam</p>
+                <p class="icon-text--medium">Desafío Latam</p>
               </div>
             </div>
           </div>
@@ -75,15 +80,15 @@
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">24 Noviembre, 2022</h5>
-              <p class="card-text">Etiquetas Semánticas</p>
+              <h5 class="text--regular card-title">24 Noviembre, 2022</h5>
+              <p class="text-card--bold card-text">Etiquetas Semánticas</p>
               <div class="col-md-4">
                 <img
                   src="./assets/img/logos/adl.png"
                   class="img-fluid rounded-start"
                   alt="..."
                 />
-                <p class="card-text">Desafío Latam</p>
+                <p class="icon-text--medium">Desafío Latam</p>
               </div>
             </div>
           </div>
@@ -98,15 +103,15 @@
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">24 Noviembre, 2022</h5>
-              <p class="card-text">Componentes React</p>
+              <h5 class="text--regular card-title">24 Noviembre, 2022</h5>
+              <p class="text-card--bold card-text">Componentes React</p>
               <div class="col-md-4">
                 <img
                   src="./assets/img/logos/adl.png"
                   class="img-fluid rounded-start"
                   alt="..."
                 />
-                <p class="card-text">Desafío Latam</p>
+                <p class="icon-text--medium">Desafío Latam</p>
               </div>
             </div>
           </div>
@@ -115,7 +120,7 @@
     </section>
     <section>
       <div class="card mb-3" style="max-width: 540px">
-        <h2>Categorías</h2>
+        <h2 class="title--bold">Populares</h2>
         <div class="row g-0">
           <div class="col-md-4">
             <img
@@ -126,15 +131,15 @@
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">24 Noviembre, 2022</h5>
-              <p class="card-text">Componentes Vue</p>
+              <h5 class="text--regular card-title">24 Noviembre, 2022</h5>
+              <p class="text-card--bold card-text">Componentes Vue</p>
               <div class="col-md-4">
                 <img
                   src="./assets/img/logos/adl.png"
                   class="img-fluid rounded-start"
                   alt="..."
                 />
-                <p class="card-text">Desafío Latam</p>
+                <p class="icon-text--medium">Desafío Latam</p>
               </div>
             </div>
           </div>
@@ -150,14 +155,16 @@
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">24 Noviembre, 2022</h5>
-              <p class="card-text">CSS reutilizablre con Sass</p>
+              <p class="text-card--bold card-text">
+                CSS reutilizablre con Sass
+              </p>
               <div class="col-md-4">
                 <img
                   src="./assets/img/logos/adl.png"
                   class="img-fluid rounded-start"
                   alt="..."
                 />
-                <p class="card-text">Desafío Latam</p>
+                <p class="icon-text--medium">Desafío Latam</p>
               </div>
             </div>
           </div>
@@ -172,15 +179,17 @@
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">24 Noviembre, 2022</h5>
-              <p class="card-text">Consumo de API con JavaScript</p>
+              <h5 class="text--regular card-title">24 Noviembre, 2022</h5>
+              <p class="text-card--bold card-text">
+                Consumo de API con JavaScript
+              </p>
               <div class="col-md-4">
                 <img
                   src="./assets/img/logos/adl.png"
                   class="img-fluid rounded-start"
                   alt="..."
                 />
-                <p class="card-text">Desafío Latam</p>
+                <p class="icon-text--medium">Desafío Latam</p>
               </div>
             </div>
           </div>
@@ -195,21 +204,22 @@
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">24 Noviembre, 2022</h5>
-              <p class="card-text">Componentes Bootstrap</p>
+              <h5 class="text--regular card-title">24 Noviembre, 2022</h5>
+              <p class="text-card--bold card-text">Componentes Bootstrap</p>
               <div class="col-md-4">
                 <img
                   src="./assets/img/logos/adl.png"
                   class="img-fluid rounded-start"
                   alt="..."
                 />
-                <p class="card-text">Desafío Latam</p>
+                <p class="icon-text--medium">Desafío Latam</p>
               </div>
             </div>
           </div>
         </div>
       </div>
       <div class="card mb-3" style="max-width: 540px">
+        <h2 class="title--bold">Categorías</h2>
         <div class="row g-0">
           <div class="col-md-4">
             <img
@@ -218,9 +228,9 @@
               alt="..."
             />
           </div>
-          <div class="col-md-8">
+          <div class="col-md-8" style="background-color: #e93e30">
             <div class="card-body">
-              <p class="card-text">HTML</p>
+              <p class="text--white card-text">HTML</p>
             </div>
           </div>
         </div>
@@ -232,9 +242,9 @@
               alt="..."
             />
           </div>
-          <div class="col-md-8">
+          <div class="col-md-8" style="background-color: #f7e018">
             <div class="card-body">
-              <p class="card-text">JavaScript</p>
+              <p class="text--white card-text">JavaScript</p>
             </div>
           </div>
         </div>
@@ -246,9 +256,9 @@
               alt="..."
             />
           </div>
-          <div class="col-md-8">
+          <div class="col-md-8" style="background-color: #299ed5">
             <div class="card-body">
-              <p class="card-text">CSS</p>
+              <p class="text--white card-text">CSS</p>
             </div>
           </div>
         </div>
@@ -260,9 +270,9 @@
               alt="..."
             />
           </div>
-          <div class="col-md-8">
+          <div class="col-md-8" style="background-color: #292c33">
             <div class="card-body">
-              <p class="card-text">React</p>
+              <p class="text--white card-text">React</p>
             </div>
           </div>
         </div>
@@ -274,9 +284,9 @@
               alt="..."
             />
           </div>
-          <div class="col-md-8">
+          <div class="col-md-8" style="background-color: #67c770">
             <div class="card-body">
-              <p class="card-text">Vue</p>
+              <p class="text--white card-text">Vue</p>
             </div>
           </div>
         </div>
@@ -288,21 +298,27 @@
               alt="..."
             />
           </div>
-          <div class="col-md-8">
+          <div class="col-md-8" style="background-color: #563d7c">
             <div class="card-body">
-              <p class="card-text">Bootstrap</p>
+              <p class="text--white card-text">Bootstrap</p>
             </div>
           </div>
         </div>
         <p>Ver todas las categotías ></p>
       </div>
     </section>
-    <footer>
+    <footer class="nav-footer">
       <div>
-        <img src="./assets/img/logos/adl.png" alt="" />
-        <p>Blog FrontEnd</p>
+        <img
+          class="nav-footer__logo--radius"
+          src="./assets/img/logos/adl.png"
+          alt=""
+        />
+        <span class="nav-footer__text--bold">Blog FrontEnd</span>
       </div>
-      <div><p>Desafío Latam- 2023</p></div>
+      <div>
+        <span class="nav-footer__text--regular">Desafío Latam- 2023</span>
+      </div>
     </footer>
   </body>
 </html>

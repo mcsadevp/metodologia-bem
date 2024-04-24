@@ -3,4 +3,61 @@
 body {
     font-family: "Poppins", sans-serif;
   }
+
+  .text--regular{
+    width: 400;
+    font-size: 16px;
+  }
+
+  .text-card--bold{
+    width: 700;
+    font-size: 20px;
+  }
+  .icon-text--medium{
+    width: 500;
+    font-size: 16px;
+  }
+  .text--white{
+    color: #ffffff;
+    width: 700;
+    font-size: 32px;
+
+  }
+
+  .title--bold{
+    width: 700;
+    font-size: 28px;
+  }
+  .nav-footer{
+    
+  }
+  .nav-footer__logo--radius{
+    width: 5vh;
+    border-radius: 5px;
+  }
+
+  .nav-footer__text--bold{
+    width: 700;
+    font-size: 24px;
+  }
   
+  .nav-footer__text--regular{
+    width: 400;
+    font-size: 20px;
+  }
+  .novedades{
+
+  }
+  .novedades__img--large{
+
+  }
+  .novedades__text--bold{
+    width: 700;
+    font-size: 24px;
+  }
+
+  .icon-text--large{
+    width: 500;
+    font-size: 24px;
+  }
+
